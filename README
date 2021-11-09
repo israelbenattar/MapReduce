@@ -1,0 +1,8 @@
+dubirot54, israelbenattar
+shalom rotshtane 311365357, israel benattar 311225411
+EX: 3
+
+FILES:
+
+MapReduceFramework.cpp -- implemantation of the MapReduceFramework.h file.
+makefile - generates the libmapreduce.a library.
