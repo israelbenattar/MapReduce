@@ -1,8 +1,11 @@
-dubirot54, israelbenattar
-shalom rotshtane 311365357, israel benattar 311225411
-EX: 3
+An implementation of Map-Reduce framework in c++.
 
-FILES:
+This framework recieves a client as defined in the file Client.h, with the predefined functions 'map' and 'reduce'. It then proccess the given data and places it in an output vector.
 
-MapReduceFramework.cpp -- implemantation of the MapReduceFramework.h file.
-makefile - generates the libmapreduce.a library.
+(K1, V1), (K2, v2), (k3, v3) are the key-value expected types by the client for each of the phases (mapping, sorting and reducing)
+
+Multithreading is maintained throughout the whole process.
+
+To initialize the process, call the function 'startMapReduceJob'
+in the file MapReduceFranework.cpp with a valid Client that follows the pattern
+of Client.h
